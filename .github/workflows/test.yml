@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - master
-#       - hardware_ci
+      - hardware_ci
   pull_request:
     branches: 
       - master
@@ -22,3 +22,7 @@ jobs:
 
   build2:
     runs-on: ubuntu-latest
+    steps:
+      - id: printing test for test2
+        run: echo This is test2
+
