@@ -17,12 +17,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps: 
-      - id: printing test
+      - id: printingtest
         run: echo This is testing 1
 
   build2:
     runs-on: ubuntu-latest
     steps:
-      - id: printing test for test2
+      - id: printingtestfortest2
         run: echo This is test2
 
