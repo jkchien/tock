@@ -15,7 +15,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: local-host
     steps: 
       - id: printingtest
         run: echo This is testing 1
