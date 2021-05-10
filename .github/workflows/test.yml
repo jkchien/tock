@@ -14,10 +14,14 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
+   
 
   build2:
     runs-on: ubuntu-latest
+
     steps:
       - id: printingtestfortest2
         run: echo This is test2
+      - name: checkout stuff
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
 
