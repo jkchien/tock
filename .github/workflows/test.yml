@@ -14,11 +14,6 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  build:
-    runs-on: local-host
-    steps: 
-      - id: printingtest
-        run: echo This is testing 1
 
   build2:
     runs-on: ubuntu-latest
